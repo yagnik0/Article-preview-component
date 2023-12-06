@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-size: 1.3rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid-content{
+    max-width: 70rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* Grid 1st column styling */
+
+.drawer-style{
+    width: 110%;
+    height: 100%;
+    background-size: cover;
+}
+
+/* Grid 2nd column styling */
+.grid-2-col {
+    padding: 3rem;
+}
+
+.heading-style {
+    font-size: 2.4rem;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.para-style {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: hsl(214, 17%, 51%);
+    margin-bottom: 1.5rem;
+}
+
+/* Name and share styling */
+.flex-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.image-style {
+    border-radius: 50%;
+}
+
+.name-text {
+    margin-left: 1.8rem;
+    color: hsl(212, 23%, 69%);
+}
+
+.name-text .name {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.share button{
+    border: none;
+    padding: 0.7rem;
+    width: 28px;
+    background-color:hsl(210, 17%, 91%) ;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.share button:hover {
+    background-color:hsl(217, 19%, 35%);
+}
+
+.share-icons {
+    font-size: 1.3rem;
+    background-color:hsl(217, 19%, 35%);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 68%;
+    bottom: 40%;
+}
+
+.share-icons p {
+    color:hsl(212, 23%, 69%);
+}
+
+.share-icons img {
+    width: 20px;
+    margin-left: 0.6rem;
+}
+
+.corner {
+    width: 12px;
+    height: 12px;
+    background-color: hsl(217, 19%, 35%);
+    transform: rotate(45deg);
+    position: fixed;
+    top: 343px;
+    right: 25.5%;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width:705px){
+    .grid-content{
+        max-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
