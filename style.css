@@ -137,18 +137,28 @@ body {
 }
 
 @media only screen and (max-width:705px){
+
     .grid-content{
         max-width: 30rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-height: 50vh;
     }
 
-    
+    .share-icons{
+        position:absolute;
+        min-width: 45vh;
+    }
 
-   
+    .share {
+        z-index: 1;
+    }
 
+    .share-icons div {
+        visibility: hidden;
+    }
 }
 
 
